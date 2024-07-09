@@ -1,0 +1,32 @@
+{
+    "quests": [
+    {
+        "title": "Activate Atia",
+        "points": 15,
+        "status": "Open",
+        "type": "PrayAtia",
+        "__typename": "Quest"
+    },
+    {
+        "title": "Open a pouch",
+        "points": 30,
+        "status": "Open",
+        "type": "RollPouch",
+        "__typename": "Quest"
+    },
+    {
+        "title": "Win 1 battle in Classic",
+        "points": 35,
+        "status": "Open",
+        "type": "Win1ClassicBattle",
+        "__typename": "Quest"
+    },
+    {
+        "title": "Win 1 battle in Origins",
+        "points": 35,
+        "status": "Open",
+        "type": "Win1OriginsBattle",
+        "__typename": "Quest"
+    }
+    ]
+}
