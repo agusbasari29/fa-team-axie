@@ -171,9 +171,9 @@ func main() {
 
 		}
 		Score, _ := parseScore(GetWeeklyQuestPointsLeaderboard(d, user).Data.UserLeaderboardRank.Score)
-		fmt.Printf("Score : %d\t", Score)
+		fmt.Printf("Score : %s%d%s\t", purple, Score, reset)
 		Rank := GetWeeklyQuestPointsLeaderboard(d, user).Data.UserLeaderboardRank.Rank
-		fmt.Printf("Rank : %d\n", Rank)
+		fmt.Printf("Rank : %s%d%s\n", purple, Rank, reset)
 
 		// fmt.Printf("=====================================\n")
 	}
